@@ -1,0 +1,9 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+.w-full{
+    width: 100%;
+}
+.w-auto{
+    width: auto;
+}

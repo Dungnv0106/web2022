@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <!-- Font inter Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" 
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="container mt-11 w-[400px] mx-auto  ">
+        <div class="text-center">
+            <div class="logo ml-[167px]">
+                <a href="index.html">
+                    <img src="image/Logo.png" alt="">
+                </a>
+            </div>
+            <div class=" mt-[128px] text-base font-semibold">
+                <p>
+                    Welcome back
+                </p>
+            </div>
+            <div class="mt-[16px]">
+                <p class="text-[32px] font-[900]">
+                    Login to your account
+                </p>
+            </div>
+        </div>
+        
+        <div class="mt-[48px]">
+            <form action="">
+                <div class="email ">
+                    <label for="email" class="block text-slate-600 font-[600]">
+                        Email
+                    </label>
+                    <input type="email"
+                    id="email"
+                    placeholder="John.snow@gmail.com"
+                    class="block border border-[#37A9CD] p-4 w-full mt-[11px] rounded-[5px]"
+                    >
+                </div>
+                <div class="password">
+                    <label for="password" class="block text-slate-600 font-[600] mt-3">
+                        Password
+                    </label>
+                    <input type="password"
+                    id="password"
+                    placeholder="********"
+                    class="block border border-[#37A9CD] p-4 w-full mt-[11px] rounded-[5px]"
+                    >
+                </div> <!--End .password-->
+
+                <button class="block mt-[30px] bg-[#37A9CD] w-full rounded-[5px] py-[15px] text-[#FFFFFF] font-[600]">
+                    Login now
+                </button>
+                <button class="flex mt-[15px] bg-gray-800 font-[600] text-[#FFFFFF] w-full rounded-[5px] py-[15px]">
+                    <div class="ml-[98px] mr-[11px]">
+                        <img src="image/icongg.png" alt="" class="">    
+                    </div>
+                    Or sign-in with google
+                </button>
+                
+                
+            </form>
+            <div class="mt-8 text-[18px] font-[700] text-[#37A9CD] text-center">
+                <a href="">
+                    Forgot password?
+                </a>
+            </div>
+            <div class="mt-4 text-center">
+                <span class="text-[18px] font-[700] text-[#616161]">
+                    Dont have an account?
+                </span>
+                <a href="" class="text-[18px] font-[700] text-[#37A9CD]">
+                    Join free today
+                </a>
+            </div>
+        </div>
+
+    </div> <!--End .container -->
+</body>
+
+</html>

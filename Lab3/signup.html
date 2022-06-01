@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- Font inter Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" 
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <div class="container mt-11 w-[400px] mx-auto ">
+        <div class="text-center">
+            <div class="logo ml-[167px]">
+                <a href="index.html">
+                    <img src="image/Logo.png" alt="">
+                </a>
+            </div>
+            <div class=" mt-[128px] text-base font-semibold">
+                <p>
+                    Welcome to Fudo
+                </p>
+            </div>
+            <div class="mt-[16px]">
+                <p class="text-[32px] font-[900]">
+                    Create Account
+                </p>
+            </div>
+        </div>
+        <div>
+            <form action="">
+                <div class="email">
+                    <label for="email" class="block text-slate-600 font-[600]">
+                        Email
+                    </label>
+                    <input 
+                    type="email"
+                    id="email"
+                    placeholder="John.snow@gmail.com"
+                    class="border border-[#37A9CD] p-4 w-full mt-[11px] rounded-[5px]"
+                    >
+                </div> <!--End .email-->
+                <div class="fullname">
+                    <label for="fullname" class="block text-slate-600 font-[600] mt-3">
+                        Fullname
+                    </label>
+                    <input 
+                    type="text"
+                    id="fullname"
+                    placeholder="John.snow"
+                    class="block border border-[#37A9CD] p-4 w-full mt-[11px] rounded-[5px]"
+                    >
+                </div> <!--End .fullname-->
+                <div class="password">
+                    <label for="password" class="block text-slate-600 font-[600] mt-3">
+                        Password
+                    </label>
+                    <input 
+                    type="password"
+                    id="password"
+                    placeholder="*********"
+                    class="block border border-[#37A9CD] p-4 w-full mt-[11px] rounded-[5px]"
+                    >
+                </div> <!--End .password-->
+                <div class="repass">
+                    <label for="repass" class="block text-slate-600 font-[600] mt-3">
+                        Re-Password
+                    </label>
+                    <input 
+                    type="password"
+                    id="repass"
+                    placeholder="*********"
+                    class="block border border-[#37A9CD] p-4 w-full mt-[11px] rounded-[5px]"
+                    >
+                </div> <!--End .repass-->
+
+                <div class="mt-8 ">
+                    <button class="py-4 w-full px-[154px] bg-[#37A9CD] text-[#FFFFFF] font-[600] rounded-[5px] ">
+                        Create Now
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div> <!--End .container-->
+</body>
+
+</html>

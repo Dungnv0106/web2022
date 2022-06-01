@@ -17,36 +17,37 @@
 </head>
 
 <body>
-    <div class="container w-4/5 md:w-5/6 lg:max-w-7xl mx-auto mt-8">
+    <div class="container w-4/5 md:w-5/6 lg:max-w-7xl mx-auto mt-11">
         <header >
             <div class="w-full mx-auto">
                 <div class="md:flex justify-between items-center">
                     <div class="logo">
-                        <a href="">
+                        <a href="index.html">
                             <img src="image/Logo.png" alt="">
                         </a>
                     </div> <!--End logo-->
-                        <ul class="md:flex items-center space-x-8 ml-32">
+
+                        <ul class="flex justify-between md:flex items-center space-x-8 ml-32 ">
                             <li>
-                                <a href="" 
+                                <a href="index.html" 
                                 class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg">
                                     Home                                
                                 </a>
                             </li>
                             <li>
-                                <a href="" 
+                                <a href="products.html" 
                                 class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg">
                                     Product
                                 </a>
                             </li>
                             <li>
-                                <a href="" 
+                                <a href="detail.html" 
                                 class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg">
                                     About us
                                 </a>
                             </li>
                             <li>
-                                <a href="" 
+                                <a href="signin.html" 
                                 class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg">
                                     Contact us
                                 </a>
@@ -78,17 +79,23 @@
             <div class="w-full mx-auto mt-14">
                 <div class="grid md:grid-cols-2 gap-8">
                     <div class="banner-column md:text-left">
-                        <button
-                        class="text-xl font-bold text-[#F54748] bg-[#FFEEEE] py-2 px-5 rounded-md mt-12 hover:bg-[#F54748] hover:text-white">
+                        <div class="">
+                            <button
+                        class="text-3xl md:text-xl lg:text-xl lg:font-bold md:font-bold text-[#F54748] bg-[#FFEEEE] py-2 px-5 rounded-md mt-12 hover:bg-[#F54748] hover:text-white
+                              md:m-0 ml-44">
                             Quality Food
                         </button>
-                        <h2 class="lg:text-7xl font-extrabold mt-10 lg:leading-[100px]">
-                            <span class="text-[#2E2E2E]">Fastest</span> <br>
-                            <span class="text-[#F54748] mt-10">Delivery</span>
-                            <span class="text-[#2E2E2E]">&</span> <br> 
-                            <span class="text-[#2E2E2E]">Easy</span>
-                            <span class="text-[#F54748]">Pickup</span>
-                        </h2>
+                        </div>
+                        <div class="sm:text-5xl sm:font-extrabold leading-6 text-center md:text-left">
+                            <h2 class="lg:text-7xl lg:font-extrabold mt-10 lg:leading-[100px]">
+                                <span class="text-[#2E2E2E]">Fastest</span> <br>
+                                <span class="text-[#F54748] mt-10">Delivery</span>
+                                <span class="text-[#2E2E2E]">&</span> <br> 
+                                <span class="text-[#2E2E2E]">Easy</span>
+                                <span class="text-[#F54748]">Pickup</span>
+                            </h2>
+                        </div>
+                        
                         <p class="text-[#5D5D5D] mt-7">
                             Best cooks and best delivery guys all at your service. Hot tasty food will 
                             reach you in 60 minutes.
@@ -107,6 +114,7 @@
                             </form>
                         </div>
                     </div>
+                    <!-- image -->
                     <div class="banner-column ">
                         <a href="">
                             <img src="image/banner.png" height="705px" width="620px" alt="">
@@ -116,33 +124,41 @@
             </div>
         </section>
         <!-- End .banner -->
-        <div class="text-center mt-28">
-            <h2 class="text-5xl font-bold text-[#000000] ">
-                Our Popular Dishes
-            </h2>
-            <p class="text-[#5D5D5D] mt-8">
-                Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut <br>
-                labore et dolore magna aliqut enim ad minim 
-            </p>
+        <div class="mt-[97px] text-center">
+            <div class="">
+                <h2 class="md:text-5xl font-bold text-[#000000] sm:text-4xl ">
+                    Our Popular Dishes
+                </h2>
+            </div>
+            <div class="md:w-[706px] md:h-[56px] mx-auto ">
+                <p class="text-[#5D5D5D] mt-6 leading-[28px]">
+                    Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqut enim ad minim 
+                </p>
+            </div>
+            
         </div>
         <!-- End text -->
         <section class="feature-product">
             <div class="w-full mx-auto mt-12">
-                <div class="grid md:grid-cols-3 gap-8 gap-y-14">
+                <div class="md:grid md:grid-cols-3 md:gap-8 gap-y-14 sm:block">
 
-                    <div class="feature-product-column">
-                        <div class="feature-product-image">
+                    <div class="feature-product-column sm:text-center border border-gray-300">
+                        <div class="feature-product-image sm:text-center">
                             <a href="">
-                                <img src="image/hamburger.png" alt="">
+                                <img src="image/hamburger.png" alt="" class="mx-auto">
                             </a>
                         </div>
-                        <div class="feature-product-contene mt-7 mb-9">
-                            <a href="" class="text-[#F54748] text-xl font-bold mt-5 ">
-                                Big and Juicy Wagyu Beef Cheeseburger
+                        <div class="feature-product-contene mt-7 mb-9 border border-gray-400">
+                            <a href="" >
+                                <p class="text-[#F54748] text-xl font-bold mt-5 "> 
+                                    Big and Juicy Wagyu Beef Cheeseburger
+                                </p> 
                             </a>
                         </div>
-                        <div class="flex space-x-7 items-center">
-                        <div class="time flex">
+                        <div class="flex space-x-7 items-center border border-gray-400">
+
+                        <div class="time flex mx-auto">
                             <!-- Logo đồng hồ -->
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.75 1.5H14.25C14.4489 1.5 14.6397 1.42098 14.7803 1.28033C14.921 1.13968 15 0.948912 15 0.75C15 0.551088 14.921 0.360322 14.7803 0.21967C14.6397 0.0790176 14.4489 0 14.25 0L9.75 0C9.55109 0 9.36032 0.0790176 9.21967 0.21967C9.07902 0.360322 9 0.551088 9 0.75C9 0.948912 9.07902 1.13968 9.21967 1.28033C9.36032 1.42098 9.55109 1.5 9.75 1.5Z" fill="black"/>
@@ -163,7 +179,7 @@
                         </div>
                     </div>
                     </div> <!--End .feature-product-column-->
-                    <div class="feature-product-column">
+                    <div class="feature-product-column border border-gray-300">
                         <div class="feature-product-image">
                             <a href="">
                                 <img src="image/fish.png" alt="">
@@ -434,7 +450,7 @@
                                 EMAIL ADDRESS
                             </label>
                             <input 
-                            type="text"
+                            type="email"
                             id="email"
                             placeholder="Your email address..."
                             class="w-full block border border-black-100 p-4 mt-2 rounded-md"
@@ -498,22 +514,23 @@
                     </div>
                     <ul class="flex justify-between items-center space-x-8 font-bold text-[#5D5D5D]"  >
                         <li>
-                            <a href="" class="hover:text-[#F54748]">Home</a>
+                            <a href="index.html" class="hover:text-[#F54748]">Home</a>
                         </li>
                         <li>
-                            <a href="" class="hover:text-[#F54748]">Products</a>
+                            <a href="products.html" class="hover:text-[#F54748]">Products</a>
                         </li>
                         <li>
-                            <a href="" class="hover:text-[#F54748]">About us</a>
+                            <a href="detail.html" class="hover:text-[#F54748]">About us</a>
                         </li>
                         <li>
-                            <a href="" class="hover:text-[#F54748]">Contact us</a>
+                            <a href="signin.html" class="hover:text-[#F54748]">Contact us</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </footer>
-    </div>
+    </div> 
+    <!-- End .container -->
 </body>
 
 </html>

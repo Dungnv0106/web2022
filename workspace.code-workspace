@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\Documents\\Visual Studio\\f8_learn"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Bai_Tap"
+	}
+}

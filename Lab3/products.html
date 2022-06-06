@@ -18,41 +18,41 @@
 
 <body>
     <div class="container w-4/5 md:w-5/6 lg:max-w-7xl mx-auto mt-11">
-        <header>
+        <header >
             <div class="w-full mx-auto">
                 <div class="md:flex justify-between items-center">
                     <div class="logo">
                         <a href="">
-                            <img src="image/Logo.png" alt="">
+                            <img src="image/Logo.png" alt="" class="sm:mx-auto">
                         </a>
                     </div> <!--End logo-->
-                        <ul class="md:flex items-center space-x-8 ml-32">
+                        <ul class="flex justify-between items-center space-x-8 sm:mt-5 md:mt-0 md:ml-32 ">
                             <li>
                                 <a href="index.html" 
-                                class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg">
+                                class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg hover:text-[22px]">
                                     Home                                
                                 </a>
                             </li>
                             <li>
                                 <a href="products.html" 
-                                class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg">
+                                class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg hover:text-[22px]">
                                     Product
                                 </a>
                             </li>
                             <li>
                                 <a href="detail.html" 
-                                class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg">
+                                class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg hover:text-[22px]">
                                     About us
                                 </a>
                             </li>
                             <li>
                                 <a href="signin.html" 
-                                class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg">
+                                class="text-xl text-[#5D5D5D] font-bold hover:text-[#F54748] md:text-lg hover:text-[22px]">
                                     Contact us
                                 </a>
                             </li>
                         </ul>
-                    <div class="md:flex space-x-5 items-center">
+                    <div class="flex justify-end space-x-5 items-center sm:mt-5 md:mt-0">
                         <!-- Giỏ hàng -->
                         <button>
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,55 +75,70 @@
         </header>
 
         <section class="banner">
-            <div class="mt-11">
+            <div class="sm:mt-10 md:mt-11">
                 <a href="">
-                    <img src="image/Rectangle1372.png" alt="">
+                    <img src="image/Rectangle1372.png" alt="" class="w-full">
                 </a>
             </div>
         </section>
 
         <section class="content">
-            <div class="w-full mx-auto mt-12">
-                <div class="flex">
-                    <div class="column1 space-x-6">
-                        <a href="">
-                            <p class="text-xl font-semibold text-[#000000]">Breakfast</p>
-                        </a> 
-                        <a href="">
-                            <p class="text-xl font-semibold text-[#000000]">Vegan</p>
-                        </a> 
-                        <a href="">
-                            <p class="text-xl font-semibold text-[#000000]">Meat</p>
-                        </a> 
-                        <a href="">
-                            <p class="text-xl font-semibold text-[#000000]">Dessert</p>
-                        </a> 
-                        <a href="">
-                            <p class="text-xl font-semibold text-[#000000]">Lunch</p>
-                        </a> 
-                        <a href="">
-                            <p class="text-xl font-semibold text-[#000000]">Chocolate</p>
-                        </a> 
+            <div class="w-full mx-auto sm:mt-10 md:mt-[49px]">
+                <div class="md:flex">
+                    <div class="column1 sm:text-[20px] md:text-xl">
+                        <ul class="sm:flex md:block md:space-y-6 sm:space-x-6 md:space-x-0">
+                            <li class="">
+                                <a href="" class="font-semibold text-[#000000] hover:text-[#F54748] hover:text-[21px]">
+                                    Breakfast
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="font-semibold text-[#000000] hover:text-[#F54748] hover:text-[21px]">
+                                    Vegan
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="font-semibold text-[#000000] hover:text-[#F54748] hover:text-[21px]">
+                                    Meat
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="font-semibold text-[#000000] hover:text-[#F54748] hover:text-[21px]">
+                                    Dessert
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="font-semibold text-[#000000] hover:text-[#F54748] hover:text-[21px]">
+                                    Lunch
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="font-semibold text-[#000000] hover:text-[#F54748] hover:text-[21px]">
+                                    Chocolate
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="column2 ml-56 ">
-                        <div class="grid grid-cols-3 gap-10">
+                    
+                    <div class="column2 md:ml-56 sm:mt-5 md:mt-0 ">
+                        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
                             <div class="frame1">
                                 <div class="image">
                                     <a href="">
                                         <img src="image/grain.png" alt="">
                                     </a>
                                 </div>
-                                <div class="text mt-6 leading-6">
-                                    <p class="text-lg font-semibold">
+                                <div class="text mt-6 h-[52px]">
+                                    <p class="sm:text-[22px] md:text-xl font-semibold">
                                         Fresh and Healthy Mixed Mayonnaise Salad
                                     </p>
                                 </div>
                                 <div class="price mt-6">
-                                    <span class="text-xl font-bold text-[#F54748]">
+                                    <span class="sm:text-[22px] md:text-xl font-semibold text-[#F54748]">
                                         $30
                                     </span>
                                 </div>
-                                <button class="mt-8 text-sm font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
+                                <button class="mt-8 sm:text-[22px] md:text-[14px] font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
                                      Add To Cart
                                 </button>
                             </div> <!--End frame1-->
@@ -133,17 +148,17 @@
                                         <img src="image/noodle.png" alt="">
                                     </a>
                                 </div>
-                                <div class="text mt-6 leading-6 h-[55px]">
-                                    <p class="text-lg font-semibold">
+                                <div class="text mt-6 h-[52px] ">
+                                    <p class="sm:text-[22px] md:text-xl font-semibold">
                                         The Creamiest Creamy Chicken
                                     </p>
                                 </div>
                                 <div class="price mt-6">
-                                    <span class="text-xl font-bold text-[#F54748]">
+                                    <span class="sm:text-[22px] md:text-xl font-bold text-[#F54748]">
                                         $30
                                     </span>
                                 </div>
-                                <button class="mt-8 text-sm font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
+                                <button class="mt-8 sm:text-[22px] md:text-[14px] font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
                                      Add To Cart
                                 </button>
                             </div> <!--End frame2-->
@@ -153,17 +168,17 @@
                                         <img src="image/fruit.png" alt="">
                                     </a>
                                 </div>
-                                <div class="text mt-6 leading-6">
-                                    <p class="text-lg font-semibold">
+                                <div class="text mt-6 h-[52px]">
+                                    <p class="sm:text-[22px] md:text-xl font-semibold">
                                         Fruity Pancake with Orange & Blueberry
                                     </p>
                                 </div>
                                 <div class="price mt-6">
-                                    <span class="text-xl font-bold text-[#F54748]">
+                                    <span class="sm:text-[22px] md:text-xl font-bold text-[#F54748]">
                                         $30
                                     </span>
                                 </div>
-                                <button class="mt-8 text-sm font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
+                                <button class="mt-8 sm:text-[22px] md:text-[14px] font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
                                      Add To Cart
                                 </button>
                             </div> <!--End frame3-->
@@ -173,17 +188,17 @@
                                         <img src="image/grain.png" alt="">
                                     </a>
                                 </div>
-                                <div class="text mt-6 leading-6">
-                                    <p class="text-lg font-semibold">
+                                <div class="text mt-6 h-[52px]">
+                                    <p class="sm:text-[22px] md:text-xl font-semibold">
                                         Fresh and Healthy Mixed Mayonnaise Salad
                                     </p>
                                 </div>
                                 <div class="price mt-6">
-                                    <span class="text-xl font-bold text-[#F54748]">
+                                    <span class="sm:text-[22px] md:text-xl font-bold text-[#F54748]">
                                         $30
                                     </span>
                                 </div>
-                                <button class="mt-8 text-sm font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
+                                <button class="mt-8 sm:text-[22px] md:text-[14px] font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
                                      Add To Cart
                                 </button>
                             </div> <!--End frame1-->
@@ -193,17 +208,17 @@
                                         <img src="image/noodle.png" alt="">
                                     </a>
                                 </div>
-                                <div class="text mt-6 leading-6 h-[55px]">
-                                    <p class="text-lg font-semibold">
+                                <div class="text mt-6 h-[52px]">
+                                    <p class="sm:text-[22px] md:text-xl font-semibold">
                                         The Creamiest Creamy Chicken
                                     </p>
                                 </div>
                                 <div class="price mt-6">
-                                    <span class="text-xl font-bold text-[#F54748]">
+                                    <span class="sm:text-[22px] md:text-xl font-bold text-[#F54748]">
                                         $30
                                     </span>
                                 </div>
-                                <button class="mt-8 text-sm font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
+                                <button class="mt-8 sm:text-[22px] md:text-[14px] font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
                                      Add To Cart
                                 </button>
                             </div> <!--End frame2-->
@@ -213,17 +228,17 @@
                                         <img src="image/fruit.png" alt="">
                                     </a>
                                 </div>
-                                <div class="text mt-6 leading-6">
-                                    <p class="text-lg font-semibold">
+                                <div class="text mt-6 h-[52px]">
+                                    <p class="sm:text-[22px] md:text-xl font-semibold">
                                         Fruity Pancake with Orange & Blueberry
                                     </p>
                                 </div>
                                 <div class="price mt-6">
-                                    <span class="text-xl font-bold text-[#F54748]">
+                                    <span class="sm:text-[22px] md:text-xl font-bold text-[#F54748]">
                                         $30
                                     </span>
                                 </div>
-                                <button class="mt-8 text-sm font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
+                                <button class="mt-8 sm:text-[22px] md:text-[14px] font-semibold text-[#FFFFFF] bg-[#111928] rounded-md w-full py-3.5">
                                      Add To Cart
                                 </button>
                             </div> <!--End frame3-->
@@ -245,16 +260,24 @@
                     </div>
                     <ul class="flex justify-between items-center space-x-8 font-bold text-[#5D5D5D]"  >
                         <li>
-                            <a href="index.html" class="hover:text-[#F54748]">Home</a>
+                            <a href="index.html" class="hover:text-[#F54748] hover:text-[17px]">
+                                Home
+                            </a>
                         </li>
                         <li>
-                            <a href="products.html" class="hover:text-[#F54748]">Products</a>
+                            <a href="products.html" class="hover:text-[#F54748] hover:text-[17px]">
+                                Products
+                            </a>
                         </li>
                         <li>
-                            <a href="detail.html" class="hover:text-[#F54748]">About us</a>
+                            <a href="detail.html" class="hover:text-[#F54748] hover:text-[17px]">
+                                About us
+                            </a>
                         </li>
                         <li>
-                            <a href="signin.html" class="hover:text-[#F54748]">Contact us</a>
+                            <a href="signin.html" class="hover:text-[#F54748] hover:text-[17px]">
+                                Contact us
+                            </a>
                         </li>
                     </ul>
                 </div>
